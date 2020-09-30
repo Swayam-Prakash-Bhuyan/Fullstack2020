@@ -8,8 +8,8 @@ const Anecdotes = ({anecdotes,selected,votes}) => {
   return(
   <div>
     <h2>Anecdote of the day</h2>
-      <div>{anecdotes[selected]}</div>
-      <div>Has {votes[selected]} votes</div>
+    <div>{anecdotes[selected]}</div>
+    <div>Has {votes[selected]} votes</div>
   </div>
   )
 }
